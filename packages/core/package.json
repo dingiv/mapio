@@ -1,0 +1,25 @@
+{
+   "name": "core",
+   "version": "1.0.0",
+   "description": "",
+   "type": "module",
+   "main": "./dist/index.js",
+   "types": "./src/index.ts",
+   "exports": {
+      ".": {
+         "default": "./src/index.js",
+         "types": "./src/index.ts"
+      }
+   },
+   "scripts": {
+      "dev": "vite",
+      "build": "vite build"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "typescript": "^5.2.2",
+      "vite": "^5.3.4"
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "name": "client",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.ts",
+   "type": "module",
+   "types": "index.ts",
+   "scripts": {
+      "build": "vite build"
+   },
+   "exports": {
+      ".": {
+         "default": "./index.ts",
+         "types":"./index.ts"
+      },
+      "./vue": {
+         "default": "./vue/index.ts",
+         "types": "./vue/index.ts"
+      },
+      "./react": {
+         "default": "./react/index.ts",
+         "types": "./react/index.ts"
+      },
+      "./solid": {
+         "default": "./solid/index.ts",
+         "types": "./solid/index.ts"
+      }
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "react": "^18.3.1",
+      "solid-js": "^1.8.19",
+      "vue": "^3.4.31"
+   },
+   "devDependencies": {
+      "vite": "^5.3.4"
+   }
+}
