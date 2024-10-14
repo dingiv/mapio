@@ -1,0 +1,20 @@
+{
+   "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Bundler",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "experimentalDecorators": true,
+      "useDefineForClassFields": true,
+      "strictPropertyInitialization": false,
+      "skipLibCheck": true,
+      "baseUrl": ".",
+      "paths": {
+         "@/*": [
+            "./src/*"
+         ]
+      }
+   },
+}

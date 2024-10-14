@@ -1,0 +1,22 @@
+{
+   "name": "@mapio/shared",
+   "version": "0.0.0",
+   "description": "",
+   "type": "module",
+   "main": "./dist/index.js",
+   "types": "./dist/index.d.ts",
+   "scripts": {
+      "build": "vite build",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/node": "^22.7.4",
+      "typescript": "^5.6.2",
+      "vite": "^5.4.8",
+      "vite-plugin-dts": "^4.2.3",
+      "vitest": "^2.0.3"
+   }
+}
